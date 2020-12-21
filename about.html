@@ -1,0 +1,181 @@
+<html>
+   <head>
+     <title>
+         About Me
+     </title>
+
+   </head>
+   <style>
+       body{
+           font-family: Verdana, Geneva, Tahoma, sans-serif;
+           
+          
+        
+           
+       }
+       *{
+           box-sizing: border-box;
+           
+           
+           
+       }
+       .backgimg{
+           position: fixed;
+           display: block;
+           background-image: url("background.jpg");
+           filter: blur(2px);
+           -webkit-filter: blur(2px);
+           width: 1500px;
+           height: 900px;
+           background-repeat: no-repeat;
+           background-size:cover;
+       }
+       .container{
+           padding: 16px;
+           background-color: white;
+           margin: 50px 100px 250px 250px;
+           border-radius: 15px;
+           border-color:black;
+           position:absolute;
+           outline-style: 1px solid outset black;
+           z-index: 1;
+       }
+      
+       
+       a{
+           color:lightskyblue;
+           text-decoration: none;
+       }
+       a:visited{
+           text-decoration: none;
+           
+       }
+       a:hover{
+            text-decoration: none;
+            color: hotpink;
+       }
+       a:active{
+           text-decoration: none;
+       }
+       
+       .login{
+           background-color:whitesmoke;
+           text-align: center;
+       }
+       .myphoto{
+            text-align: right;
+            position: relative;
+            top: 0;
+            right: 0;
+            left: 130px;
+            width: 400px;
+            height: 150;
+            
+       }
+       img.avatar{
+           border-radius: 40%;
+           width: 150px;
+           border: 2px outset lightgrey;
+           
+       }
+       .logo{
+           text-align: left;
+           position: relative;
+           margin: 0 150px 0 0;
+       }
+.column{
+    float: left;
+    width: 33.33%;
+    padding: 30px;
+}
+       .row::after{
+           clear: both;
+           display: table;
+           content: "";
+       }
+       .clmn{
+           float: left;
+           width: 50%;
+       }
+       .row1::after{
+           content: "";
+           display: table;
+           clear: both;
+           column-gap: 240px;
+       }
+       .vertical{
+           border-left: 0.05mm solid grey;
+           position: absolute;
+           height: 285px;
+           margin-left: 3px;
+           top: 400px;
+           left: 50%;
+           
+       }
+       .uppar{
+           
+           background-repeat: no-repeat;
+           background-size: cover;
+           border: 1px outset solid black;
+           border-radius: 50px;
+           background-image: url("backg5.jpg");
+                
+            
+           
+           
+       }
+       img.avatar1{
+        border-radius: 10%;
+           width: 250px;
+           
+       }
+       .section{
+           position: fixed;
+           right: 0;
+           bottom: 0;
+           min-width: 100%;
+           min-height: 100%;
+       }
+   </style>
+<body>
+    
+    
+    <div class="backgimg"></div>
+    </div>
+    <div class="container">
+    <form>
+        <div class="uppar">
+        <div class="row">
+            <div class="column">
+        <div class="logo"><img src="nitklogo.png" alt="logo"/ class="avatar1"></div></div>
+        <div class="column">
+        <div class="myphoto"><img src="mypic.jpg" / class="avatar" alt="mypic"></div></div></div></div>
+        <h1 style="color: royalblue;">About Me</h1>
+        <br/>
+        <div class="row1">
+            <div class="clmn">
+        <h2>Yash Ashutosh Madwanna</h2>
+        <p>M.Tech student,</p>
+        <a href="https://cse.nitk.ac.in/"><p>Department of Computer Science and Engineering</p></a>
+        <a href="https://www.nitk.ac.in/"><p>National Institute of Technology,Karnataka Surathakal </p></a>
+        <p>Mangaluru 575 025 Karnataka,India.</p>
+        <p>Contact Number:+91-8698882228</p>
+        <p>Email Address: yashmadwanna1997[at]gmail[dot]com</p></div>
+        <div class="vertical"></div>
+        <div class="clmn" style="padding-left: 30px;">
+                
+                <a href="exp.html"><h3 style="font-family: 'Times New Roman', Times, serif;margin-top: 120px;">Experience and Educational Background</h3></a>
+                <a href="skill.html"><h3 style="font-family: 'Times New Roman', Times, serif;">Skills and Achievements</h3></a>
+                <a href="hobby.html"><h3 style="font-family: 'Times New Roman', Times, serif;">Hobbies and Other Information</h3></a>
+       
+       
+            </div>
+        </div>
+        <hr/>
+        
+
+    </form>
+</div>
+    
+</body>
+</html>
